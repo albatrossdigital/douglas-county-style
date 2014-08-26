@@ -34,7 +34,7 @@ module.exports = function (grunt) {
         files: ['Gruntfile.js']
       },
       images: {
-        files: '<%= yeoman.app %>/images/src/{,**/}*.png',
+        files: '<%= yeoman.app %>/images/src-for-pngs/{,**/}*.png',
         tasks: ['imagemin']
       },
       livereload: {
@@ -173,7 +173,7 @@ module.exports = function (grunt) {
           expand: true,                  // Enable dynamic expansion
           cwd: '<%= yeoman.app %>/images/src/',                   // Src matches are relative to this path
           src: ['**/*.png'],             // Actual patterns to match
-          dest: '<%= yeoman.app %>/images/dist/'                  // Destination path prefix
+          dest: '<%= yeoman.app %>/images/'                  // Destination path prefix
         }]
       }
     },
