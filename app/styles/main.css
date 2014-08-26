@@ -7877,6 +7877,7 @@ h6,
 h4,
 .h4 {
   color: #777777;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 h3,
