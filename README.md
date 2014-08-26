@@ -1,2 +1,0 @@
-douglas-county-style
-====================
